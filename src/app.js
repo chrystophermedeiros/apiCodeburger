@@ -5,7 +5,7 @@ import './database'
 import cors from 'cors'
 
 const corsOptions = {
-  origin: 'https://cmscodeburger.netlify.app/login',
+  origin: 'https://cmscodeburger.netlify.app',
   credentials: true,
 }
 class App {
