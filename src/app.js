@@ -5,7 +5,7 @@ import './database'
 import cors from 'cors'
 
 const corsOptions = {
-  origin: 'https://cmscodeburger.netlify.app',
+  origin: 'https://infertace-code-burger.vercel.app',
   credentials: true,
 }
 class App {
