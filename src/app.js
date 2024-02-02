@@ -5,7 +5,7 @@ import './database'
 import cors from 'cors'
 
 const corsOptions = {
-  origin: 'https://infertace-code-burger.vercel.app',
+  origin: ['http://localhost:3000', 'https://infertace-code-burger.vercel.app'],
   credentials: true,
 }
 class App {
